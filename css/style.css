@@ -1,0 +1,19 @@
+body{
+	background-color: #f2f2ff;
+}
+
+#puzzle{
+	width: 600px;
+	height: 400px;
+	margin: 40px;
+	border: 4px solid black;
+	display: inline-grid;
+    grid-template-columns:  repeat(10, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+
+}
+
+img{
+	overflow: auto;
+	position: relative;
+}
